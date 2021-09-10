@@ -109,6 +109,13 @@
         latex-workshop.view.pdf.viewer = "tab";
         cmake.configureOnOpen = false;
         python.formatting.provider = "black";
+        "[ocaml]" = {
+        editor.defaultFormatter = "hoddy3190.ocamlformat-vscode-extension";
+      };
+      ocamlformat-vscode-extension = {
+        customOcamlformatPath = "ocamlformat";
+        ocamlformatOption = "--enable-outside-detected-project";
+      };
     };
   };
 }
