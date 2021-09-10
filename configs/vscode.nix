@@ -55,6 +55,18 @@
             version = "0.5.16";
             sha256 = "0w5w2np8fkxpknq76yv8id305rxd8a1p84p9k0jwwwlrsyrz31q8";
         }
+        {
+          name = "ocamlformat-vscode-extension";
+          publisher = "hoddy3190";
+          version = "0.0.2";
+          sha256 = "0gqjiccw9i0xfz2lj8vwxbr8zy1s69fyckyhpvlhnxfn5dacrsd4";
+        }
+        {
+          name = "reasonml";
+          publisher = "freebroccolo";
+          version = "1.0.38";
+          sha256 = "1nay6qs9vcxd85ra4bv93gg3aqg3r2wmcnqmcsy9n8pg1ds1vngd";
+        }
 
         # Theme
         {

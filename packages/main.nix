@@ -22,7 +22,7 @@ in
     cli-visualizer
     # DEV
     gcc gnumake gdb rustup cmake conda default-python jdk8 cmake doctest
-    nodejs pkg-config upx SDL2
+    nodejs pkg-config upx SDL2 ocaml ocamlformat rlwrap ocamlPackages.merlin
     # OFFICE
     wpsoffice plasma-browser-integration brave dconf audacity texlive.combined.scheme-medium
     # OTHER
@@ -35,6 +35,6 @@ in
     # TOOLS
     vbindiff metasploit
     # RESEAU
-    nmap tor 
+    nmap tor
   ];
 }
